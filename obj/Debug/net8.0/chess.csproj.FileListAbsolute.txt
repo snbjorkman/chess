@@ -1,0 +1,14 @@
+/home/spogirf/chess/bin/Debug/net8.0/chess
+/home/spogirf/chess/bin/Debug/net8.0/chess.deps.json
+/home/spogirf/chess/bin/Debug/net8.0/chess.runtimeconfig.json
+/home/spogirf/chess/bin/Debug/net8.0/chess.dll
+/home/spogirf/chess/bin/Debug/net8.0/chess.pdb
+/home/spogirf/chess/obj/Debug/net8.0/chess.GeneratedMSBuildEditorConfig.editorconfig
+/home/spogirf/chess/obj/Debug/net8.0/chess.AssemblyInfoInputs.cache
+/home/spogirf/chess/obj/Debug/net8.0/chess.AssemblyInfo.cs
+/home/spogirf/chess/obj/Debug/net8.0/chess.csproj.CoreCompileInputs.cache
+/home/spogirf/chess/obj/Debug/net8.0/chess.dll
+/home/spogirf/chess/obj/Debug/net8.0/refint/chess.dll
+/home/spogirf/chess/obj/Debug/net8.0/chess.pdb
+/home/spogirf/chess/obj/Debug/net8.0/chess.genruntimeconfig.cache
+/home/spogirf/chess/obj/Debug/net8.0/ref/chess.dll

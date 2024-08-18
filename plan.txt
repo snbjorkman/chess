@@ -1,0 +1,28 @@
+CHESS in C# via command line / ascii.
+
+goal project time: 4 days
+
+REQS/SPECS:
+-user runs program with no arguments
+-an ascii representation of a chess board with axes prints out at the start of each turn
+-white makes the first move
+-moves are simply a "from" coordinate and a "to" coordinate
+-if the move is valid, the board updates and it is the next players turn
+-if the move is not valid, the user is prompted to give a valid move
+-when a checkmate is reached, the winner is announced and the game ends
+
+
+
+SYSTEM/DATA/STRUCTURE/ETC
+-all chess pieces are their own class derived from a "piece" class
+-piece methods may include validMove, toString, maybe others
+-piece attributes will be x, y (both public) 
+-all pieces are stored on a 2d array called board[,], which is printed out by a printBoard method
+-board is initialized to chess starting position
+-check has to be evaluated for each move; this may be most easily implemented as a method of the king class
+-if evalCheck==true, checkmate must be evaluated (simulate every possible move and see if any gets the king out of check)
+-each time a move is made, all relevant pieces' position on the board is evaluated, and its own attributes x and y are evaluated
+
+
+functions will not be planned in detail, but everytime a new one is written, 
+write a comment describing what it does and perhaps a little on how it works BEFORE writing any code in it.
