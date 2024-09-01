@@ -1,6 +1,5 @@
 CHESS in C# via command line / ascii.
 
-goal project time: 4 days
 
 REQS/SPECS:
 -user runs program with no arguments
@@ -10,6 +9,7 @@ REQS/SPECS:
 -if the move is valid, the board updates and it is the next players turn
 -if the move is not valid, the user is prompted to give a valid move
 -when a checkmate is reached, the winner is announced and the game ends
+-for simplicity theres no castling or en passant
 
 
 
@@ -24,5 +24,3 @@ SYSTEM/DATA/STRUCTURE/ETC
 -each time a move is made, all relevant pieces' position on the board is evaluated, and its own attributes x and y are evaluated
 
 
-functions will not be planned in detail, but everytime a new one is written, 
-write a comment describing what it does and perhaps a little on how it works BEFORE writing any code in it.
